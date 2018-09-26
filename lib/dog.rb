@@ -10,6 +10,7 @@ class Dog
     @@all.each do |dog|
       @@all.delete(dog)
     end
+    @@all
   end
 
   def name
