@@ -7,10 +7,7 @@ class Dog
   end
 
   def self.clear_all
-    @@all.each do |dog|
-      @@all.delete(dog)
-    end
-    @@all
+    @@all=[]
   end
 
   def name
